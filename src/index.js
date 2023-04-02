@@ -7,10 +7,16 @@ import App from './App';
 
 const theme = createTheme({
   palette: {
-    primary: { main: '#312e52' },
+    primary: { main: '#004aad' },
+    white: { main: '#fff' },
+    text: { primary: '#000' },
     secondary: { main: '#000' },
-    background: { default: '#f2f3f5' },
+    background: { default: '#f5f5f5' },
   },
+  typography: {
+    fontSize: 11.5,
+  },
+  spacing: 8.5,
 });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
